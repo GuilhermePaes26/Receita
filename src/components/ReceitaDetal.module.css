@@ -1,0 +1,74 @@
+* {
+  width: 100%;
+}
+img {
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+  background-color: #e65c00;
+}
+.receitaCard {
+  width: 98%;
+  margin: 5px;
+}
+.ReceitaDes {
+  margin-top: 15px;
+}
+h2 {
+  margin: 2px;
+}
+/* teste */
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.logo {
+  width: 150px;
+  height: 30px;
+  margin: 40px;
+}
+.exit {
+  margin: 30px;
+  display: flex;
+  justify-content: end;
+}
+
+.search {
+  height: 40px;
+  background-image: url("../assets/img/icon-busca.png");
+  background-repeat: no-repeat;
+  background-position: right center; /* Posiciona a imagem no final e no centro verticalmente */
+}
+
+.h1Principal {
+  margin: 15px;
+}
+.ulResumo {
+  width: 96%;
+}
+.ttResumo {
+  width: 96%;
+}
