@@ -95,3 +95,8 @@
   margin-left: 15px;
   width: 80%;
 }
+@media (max-width: 510px) {
+  .pDesc {
+    font-size: 10px;
+  }
+}

@@ -26,7 +26,7 @@ export default function Login() {
         <img className={styles.img} src="/src/assets/img/logo-coco-bambu.png"></img>
       </div>
       <input type="text" value={login} className={styles.inputFieldLogin} placeholder="Nome do usuário" onChange={(e) => setLogin(e.target.value)}></input>
-      <input type="text" value={senha} className={styles.inputFieldSenha} placeholder="Senha" onChange={(e) => setSenha(e.target.value)}></input>
+      <input type="password" value={senha} className={styles.inputFieldSenha} placeholder="Senha" onChange={(e) => setSenha(e.target.value)}></input>
       <button className={styles.button} onClick={verifique}>
         Acessar
       </button>

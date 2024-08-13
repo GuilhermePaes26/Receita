@@ -72,3 +72,35 @@ h2 {
 .ttResumo {
   width: 96%;
 }
+
+@media (max-width: 880px) {
+  .ReceitaDes {
+    width: 80%;
+  }
+  .exit {
+    width: 450px;
+  }
+}
+
+@media (max-width: 510px) {
+  .receitaCard {
+    width: 90%;
+  }
+  .ReceitaDes {
+    width: 80%;
+  }
+  .ulResumo {
+    font-size: 15px;
+  }
+  .link {
+    width: 180px;
+  }
+  .logo {
+    width: 80px;
+    height: 30px;
+    margin: 40px;
+  }
+  .exit {
+    width: 100px;
+  }
+}

@@ -20,7 +20,7 @@ const ReceitasList = () => {
   return (
     <div>
       <header className={styles.header}>
-        <Link to="/receitas" className="Logo">
+        <Link to="/receitas" className={styles.link}>
           <img className={styles.logo} src="/src/assets/img/logo-coco-bambu-mini.png"></img>
         </Link>
         <input className={styles.search} type="search" value={search} onChange={(e) => setSearch(e.target.value)}></input>
