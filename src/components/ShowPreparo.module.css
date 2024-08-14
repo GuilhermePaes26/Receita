@@ -64,6 +64,7 @@
   background-color: #e65c00;
 }
 .btnFinalizado {
+  padding: 10px;
   width: 30%;
   margin: 25px;
   background-color: #0a9505;
@@ -95,6 +96,40 @@
   margin-left: 15px;
   width: 80%;
 }
+.backDiv {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: end;
+}
+
+.backLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #e65c00;
+  border-radius: 50%;
+  margin-right: 50px;
+  margin-bottom: 55px;
+  cursor: pointer;
+}
+
+.backImg {
+  margin-top: 8px;
+  margin-left: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+.backDirect {
+  width: 50px;
+  height: 50px;
+}
+
 @media (max-width: 510px) {
   .pDesc {
     font-size: 10px;

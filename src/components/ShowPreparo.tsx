@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useReceitas } from "../contexts/ReceitasContexts";
 import { useState } from "react";
 import styles from "./ShowPreparo.module.css";
@@ -14,11 +14,11 @@ const ReceitaDetalhes = () => {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error}</p>;
 
+  // consumindo a api de acordo com o id
   const receita = receitas.find((r) => r.id == id);
 
   if (!receita) return <p>Receita não encontrada.</p>;
 
-  // console.log(receita.img);
   return (
     <div className={styles.container}>
       <div className={styles.topo}>
@@ -61,6 +61,13 @@ const ReceitaDetalhes = () => {
       <button className={finish === "Finalizar" ? styles.btnFinalizar : styles.btnFinalizado} onClick={handlePress}>
         {finish}
       </button>
+      <div className={styles.backDiv}>
+        <div className={styles.backLink}>
+          <Link className={styles.backDirect} to="/receitas">
+            <img className={styles.backImg} src="/src/assets/img/icon-back.png"></img>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };

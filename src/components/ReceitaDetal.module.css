@@ -73,6 +73,24 @@ h2 {
   width: 96%;
 }
 
+.errorContainer {
+  text-align: center;
+  margin-top: 22px;
+  background-color: red;
+}
+
+.errorImg {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.errorContainer p {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
 @media (max-width: 880px) {
   .ReceitaDes {
     width: 80%;

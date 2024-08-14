@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Login.module.css";
 
+// componentes para login, junto com sua lógica
+
 export default function Login() {
   const [login, setLogin] = useState("");
   const [senha, setSenha] = useState("");
