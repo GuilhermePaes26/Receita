@@ -1,15 +1,6 @@
-# Instalar o Vite para executar tudo corretamente
+# Instalar todas as dependências para executar o programa corretamente
 
-npm create vite@latest  
-selecionar React e Typescript
-
-# Instalar outras dependências necessárias
-
-npm install prop-types react-router-dom
-
-# Instalar o json server
-
-npm install -g json-server
+npm install
 
 # Por fim, rodar os seguintes comandos para rodar a aplicação
 
