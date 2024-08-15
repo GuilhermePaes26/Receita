@@ -23,7 +23,7 @@ const ReceitasList = () => {
   };
 
   return (
-    <div>
+    <div className={styles.containerContent}>
       <header className={styles.header}>
         <Link to="/receitas" className={styles.link}>
           <img className={styles.logo} src="/src/assets/img/logo-coco-bambu-mini.png"></img>

@@ -4,7 +4,7 @@ import styles from "./RootLayout.module.css";
 export default function RootLayout() {
   return (
     <>
-      <div>
+      <div className={styles.principal}>
         <Outlet />
       </div>
       <footer className={styles.footer}>Feito por Guilherme Paes</footer>

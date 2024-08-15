@@ -6,6 +6,7 @@ img {
   height: 150px;
   margin: 2px;
 }
+
 .btn {
   display: flex;
   align-items: center;
@@ -72,11 +73,15 @@ h2 {
 .ttResumo {
   width: 96%;
 }
+.containerContent {
+  height: 100%;
+}
 
 .errorContainer {
   text-align: center;
   margin-top: 22px;
   background-color: red;
+  height: 100%;
 }
 
 .errorImg {
